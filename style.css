@@ -1,0 +1,65 @@
+@font-face {
+  font-family:"gr";
+  src:url('GREMLINS.TTF');
+}
+#container {
+  width: 533px;
+  height: 800px;
+  background-image: url(31-Gremlins2.jpg); position: relative;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  font-size: 1.3em;
+  font-family: serif;
+  color: #5992bd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+li {
+  margin-bottom: 1.3%;
+  text-align: left;
+  width: 25%;
+}
+#rea {
+  color: white;
+  text-align: center;
+  position: absolute;
+  left: 39%;
+  bottom: 28%;
+  font-family: impact;
+}
+h1 {
+  color: #3a92c4;
+  position: absolute;
+  left: 19%;
+  bottom: 14%;
+  font-size: 4em;
+  font-family: gr;
+  text-shadow: 1px 1px 0px white;
+}
+
+#grem {
+  color: white;
+  position: absolute;
+  font-family: gr;
+  font-size: 0.8em;
+  bottom: 16%;
+  left: 42%;
+}
+#end {
+  color: white;
+  position: absolute;
+  text-align: center;
+  left: 3%;
+  bottom: 3%;
+  font-size: 0.8em;
+  font-family: serif;
+  font-weight: 500;
+}
+  
+  
+  
